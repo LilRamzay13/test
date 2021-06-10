@@ -1,0 +1,52 @@
+@mixin registration__button {
+    background: #f25b24;
+    border-radius: 4px;
+    max-width: 222px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Whitney";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+    border: none;
+
+    /* White */
+    cursor: pointer;
+    color: #ffffff;
+}
+
+@mixin block__h2 {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+
+    /* Palite */
+
+    color: #2e2d35;
+}
+
+@mixin block__p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    /* or 23px */
+
+    /* text */
+
+    color: #474351;
+
+    margin-top: 22px;
+}
